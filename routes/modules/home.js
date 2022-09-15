@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const urlShorten = require('../../models/shemaSample')
+const accountSchema = require('../../models/account')
 
 
 router.get('/', (req, res) => {
