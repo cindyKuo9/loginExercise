@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
           return res.render('welcome', { firstName: user.firstName })
         }
       }
-      return res.render('index')
+      return res.render('index', { error: "error" })
     })
 })
 
